@@ -1,0 +1,13 @@
+{
+  "name": "MIE368-Analytics-In-Action",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rainshen49/MIE368-Analytics-In-Action.git",
+  "license": "MIT",
+  "dependencies": {
+    "@types/json2csv": "^4.5.0",
+    "json2csv": "^4.5.3",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  }
+}
