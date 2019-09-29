@@ -1,0 +1,26 @@
+{
+  search(location: "toronto", sort_by: "review_count", categories: "Restaurants") {
+    total
+    business {
+      name
+      rating
+      review_count
+      price
+      categories {
+        title
+        alias
+      }
+      location {
+        address1
+        postal_code
+      }
+      reviews {
+        rating
+        time_created
+        user {
+          id
+        }
+      }
+    }
+  }
+}
