@@ -1,3 +1,5 @@
+create view TorontoBusinessReview as
+
 select 
 
 R.user_id as user_id,
@@ -48,4 +50,3 @@ join public.business B ON R.business_id = B.business_id
 join public.user U on U.user_id = R.user_id
 where B.city = 'Toronto'
 order by U.user_id, R.date DESC
-LIMIT 100
