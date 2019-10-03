@@ -105,3 +105,4 @@ venv.bak/
 node_modules/
 yelp_dataset/
 .DS_Store
+reviews_toronto.csv
